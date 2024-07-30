@@ -1,0 +1,114 @@
+/* Styles for the capstone section */
+.capstone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: opacity 0.5s, visibility 0.5s;
+    z-index: 1;
+   
+    color: #fff; /* White font color */
+    border: 1px solid #444; /* Dark border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.capstone h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffdd57; /* Heading color */
+}
+
+.capstone .content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.capstone .content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffdd57; /* Heading color */
+    border-bottom: 2px solid #ffdd57; /* Yellow border bottom */
+    padding-bottom: 5px;
+}
+
+.capstone .content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.capstone .content ul li {
+    margin-bottom: 10px;
+}
+.layer {
+    width: 100%;
+    padding: 20px;
+}
+
+.capstone {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    overflow: auto;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/* Animations */
+@keyframes boxMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100%, 100%);
+    }
+}
+
+@keyframes circleMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 100%);
+    }
+}
+
+@keyframes triangleMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100%, -100%);
+    }
+}
+
+@keyframes dotMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, -100%);
+    }
+}
